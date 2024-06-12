@@ -1,0 +1,58 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Anakin",
+      "type": "Cat",
+      "age": 4
+    },
+    {
+      "id": 2,
+      "name": "Dima",
+      "type": "Dog",
+      "age": 5
+    },
+    {
+      "id": 3,
+      "name": "Dora",
+      "type": "Dog",
+      "age": 3
+    },
+    {
+      "id": 4,
+      "name": "Nala",
+      "type": "Cat",
+      "age": 8
+    },
+    {
+      "id": 5,
+      "name": "Frida",
+      "type": "Salsicha",
+      "age": 1
+    },
+    {
+      "id": 6,
+      "name": "Levi",
+      "type": "Cat",
+      "age": 12
+    }
+  ],
+  "servicos": [
+    {
+      "price": 80.00,
+      "description": "Castração Gato"
+    },
+    {
+      "price": 80.00,
+      "description": "Cachorro Pequeno (até 4kg)"
+    },
+    {
+      "price": 120.00,
+      "description": "Cachorro Médio (até 8kg)"
+    },
+    {
+      "price": 180.00,
+      "description": "Cachorro Grande"
+    }
+  ]
+}
