@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Eventos</h1>
+  <h2>Ativar eventos, enviar dados ou alguma coisa para o backend por exemplo usando o click - (click)='algumaFuncao()'</h2>
+
+  <p *ngIf="show">exibindo mensagem</p>
+  <button (click)="showMessage()">Clique em Mim</button>
+  <br>
+  <br>
+  <br>
+
+<label for="">Escreva alguma coisa:
+  <input (input)="capturarInput($event)" type="text" [(ngModel)]="inputValue">
+</label>
+<br>
+<button (click)="enviarMensagem()">Enviar</button>
+<br>
+
+<p>valor do input é: {{ inputValue }}</p>
+  <label for="">Irá aparecer aqui:
+    <input [(ngModel)]="inputInicialValue" type="text">
+  </label>
+</div>
