@@ -15,18 +15,27 @@
 <br />
 
 ## Desafios Encontrados
+### - Instalação do Projeto
   Aprender um framework novo é sempre um desafio, né? Mas o que tornou mais fácil foi que a base do Angular é o TypeScript, e eu já  
   tinha um pouco de conhecimento sobre isso. Fora isso, era um ambiente novo e desconhecido para mim.  
 <br />
   Para iniciar o projeto, você tem que primeiro instalar o Angular CLI com o npm install `-g @angular/cli`. Depois disso, para executar os  
   comandos, você deve começar com ng ou `ng --help` para ver uma boa parte dos outros comandos que podem ser executados.  
 <br />
-  Iniciei meu primeiro projeto com ng new primeiro-projeto. Ele me fez algumas perguntas para eu fazer algumas configurações iniciais  
-  do projeto, achei super interessante. Então, ele criou o projeto todo certo, porém ele era diferente do que no vídeo do YouTube estava.  
-  Não vinha com a pasta ***app.module.ts***, que é muito importante para fazer o import dos outros componentes. Ainda não sei por que isso aconteceu,  
-  acho que nas últimas versões não é mais necessário este arquivo e o import é feito diretamente no componente. Então, criei o  
-  projeto com o comando ng new primeiro-projeto `--no-standalone --routing --ssr=false`, e assim ele gerou normalmente o projeto com a  
-  pasta ***app.module.ts***.
+  Iniciei meu primeiro projeto com ng `new primeiro-projeto`. Ele me fez algumas perguntas iniciais se eu queria *css* ou *sass* para estilizar o site  
+  achei super interessante. Criei o projeto, porém ele era diferente do que no vídeo do YouTube estava, não vinha com a pasta ***app.module.ts***, 
+  que é muito importante para fazer o import dos outros componentes de forma automática. Ainda não sei por que isso aconteceu, pesquisei e  
+  descobri que nas últimas versões não é mais necessário este arquivo pois os imports são feitos diretamente no componente e para resolver  
+  este problema criei o projeto com o comando `ng new primeiro-projeto --no-standalone --routing --ssr=false`, e assim ele gerou o projeto  
+  normalmente com a pasta ***app.module.ts***.
+<br />
+
+### - Estrutura do Projeto
+  Estruturalmente um projeto em Angular é bem diferene como no React que era o que eu estava mais familiarizado mas a lógica é bem parecia.  
+  Tem como arquivo principal o html que é nele que você faz o import no formato de ***tags personalizadas***, coisa nova que eu achei bem difente  
+  e prática, neste html tem o css dele que é onde vai os estilos globais da pagina e cada componente tem seu css e o estilo do mesmo não escapa  
+  para os outros componentes e pra quem é front, isso é uma mão na roda do caralho.
+
 
 <br />
 <br />
