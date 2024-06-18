@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Rendelização Condicionar</h1>
+  <h2>imprimir algo baseado em uma condição - if else - usando o ngif</h2>
+
+  <p *ngIf="candShow">estamos mostrando</p>
+  <p *ngIf="name === 'Alexandre'; else nameNotFound" >O nome é Alexandre</p>
+
+  <ng-template #nameNotFound>
+    <span> O nome não foi encontrado...</span>
+  </ng-template>
+</div>
