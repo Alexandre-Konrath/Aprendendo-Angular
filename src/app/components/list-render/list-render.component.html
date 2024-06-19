@@ -1,0 +1,32 @@
+<div class="container">
+  <h1>Rendelização de Lista</h1>
+  <h2>Imprimir um array de objetos no template da tela usando o *ngFor='let item of items'</h2>
+
+  <h1>Interfaces</h1>
+  <h2>tipar as coisas/metodos com as interfaces</h2>
+  <ul>
+    <li *ngFor="let animal of animals">
+      Nome: <a routerLink="/list/{{ animal.id }}">{{ animal.name }}</a> - {{ animal.type }}
+      <button (click)="showAge(animal)">Mostrar idade</button>
+      <button (click)="removeAnimal(animal)">Remover Animal</button>
+    </li>
+    <h3>{{ animalDetails }}</h3>
+  </ul>
+
+  <br>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Castração</th>
+        <th>Preço</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let service of services">
+        <td>{{ service.description }}</td>
+        <td>R$: {{ service.price.toFixed(2).replace('.', ',') }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
