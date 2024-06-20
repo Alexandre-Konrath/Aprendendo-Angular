@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Two way data binding</h1>
+  <h2>alrera props e o template com o preenchimento de inputs</h2>
+
+  <form>
+    <input type="text" [(ngModel)]="name" name="name" placeholder="Dgite seu nome">
+    <input (click)="name = ''" type="submit" value="Enviar">
+  </form>
+  <div *ngIf="name !== ''">
+    <p>Seu nome é {{ name }}</p>
+  </div>
+</div>
+<div class="container">
+  <h1>services</h1>
+  <h2>onde fica as requisições para a api</h2>
+</div>
