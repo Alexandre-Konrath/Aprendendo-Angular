@@ -3,13 +3,37 @@
 <br />
 
 ## Descrição do projeto
-  O site não é nem um pouco bonito e organizado, mas serve para aprender o básico sobre este framework e testar diversas coisas que fui  
-  aprendendo ao longo dos vídeos do YouTube.  
+  O Projeto não desenvolvido para ser bonito e organizado, mas serve para deixar salvo exemplos práticos de funcionalidades que estou aprendendo  
+  ao longo dos meus estudos de Angular
+  
 <br />
-  Na semana passada, decidi aprender um novo framework. Pesquisei e encontrei o Angular. Confesso que nunca tinha ouvido falar nisso.  
-  Vi que ele estava chegando perto do React em termos de popularidade. Então, iniciei meus estudos para aprender mais sobre e encontrei  
-  o canal do Matheus Battisti no YouTube, ensinando o básico do Angular. Ele explica e ensina de uma forma muito simples e mostra na prática  
-  o que cada coisa faz. Se estiver interessado em aprender Angular, recomendo muito este canal.  
+
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+## Tópicos 
+
+- [Introdução](#introdução)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+<br />
+
+> # Introdução 
+>  
+>> Na semana passada, decidi aprender um novo framework. Pesquisei e encontrei o Angular. Confesso que nunca tinha ouvido falar nisso.  
+>>  Vi que ele estava chegando perto do React em termos de popularidade. Então, iniciei meus estudos para aprender mais sobre e encontrei  
+>>  o canal do Matheus Battisti no YouTube, ensinando o básico do Angular. Ele explica e ensina de uma forma muito simples e mostra na prática
+>>  o que cada coisa faz.
 
 <br />
 <br />
@@ -48,3 +72,24 @@
 | script | Explicação |
 |--------|-------------|  
 | ***"json-server"*** | . |
+
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
